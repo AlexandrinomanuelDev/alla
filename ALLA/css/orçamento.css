@@ -1,0 +1,66 @@
+
+ @import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,500;0,800;1,100&display=swap');
+
+
+
+
+body {
+    font-family: 'Kanit', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-image: url(../img/bg1.png ) ;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.container {
+    background-color: #fc002e7a;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    color: white;
+    animation: slideInUp; 
+    animation-duration: 1s;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+label {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+input, textarea {
+    margin-top: 5px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #0e0e0e;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #ffffff;
+    color: #fc0030;
+}

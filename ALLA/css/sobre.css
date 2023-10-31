@@ -1,0 +1,123 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 100px;
+    background-color: #1e191a;
+    align-items: center;
+}
+
+header .menu ul{
+    display: flex;
+}
+
+header .menu ul li a{
+    padding: 10px 30px;
+    color: #fff;
+    font-size: 22px;
+    transition: 2s;
+}
+
+
+header .logo img{
+    width: 100%;
+    height: 90px;
+}
+
+
+.container{
+    background: #1e191a;
+    display: flex;
+    align-items: center;
+    padding: 50px;
+    gap: 50px;
+}
+.container h2{
+    color:  #fc0030;
+}
+.container p{
+    font-size: 19pt;
+    font-weight: 200;
+}
+.container p{
+    color:  #f5f5f5;
+}
+.container img{
+    width: 350px;
+    height: 350px;
+    transition: all 0.5s ease;
+    filter: grayscale(1);
+}
+
+.container img:hover{
+    filter: grayscale(0);
+}
+
+footer{ 
+    background: #fc0030;
+    
+}
+
+
+
+
+.elementos{
+    background-color: #fc0030;   
+    width: auto;
+    display: flex;
+    align-items: center;
+    gap: 60px;
+    color: aliceblue;
+    padding: 30px;
+    margin-left: 250px;
+    
+}
+
+.icones a{
+    color: white;
+    font-size: 30px;
+}
+
+.alla img{
+    width: 190px;
+    height: 180px;
+}
+
+.mapbox{
+    margin-right: 40px;
+}
+
+.col-md-4 h3{
+    font-size: 25px;
+}
+
+.footer-links{
+    color: black;
+    list-style: none;
+}
+.footer-links a {
+    color: rgb(255, 255, 255);
+    list-style: none;
+}
+
+@media (max-width: 767px){
+    .container{
+        background: #1e191a;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 50px;
+        gap: 50px;
+    }
+
+    
+   
+}
